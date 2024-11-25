@@ -203,7 +203,7 @@
 <center>
 <table style="border-collapse: collapse;" width="80%">
 <tr>
-<td width="10%" style="border: 1px solid black;" valign="top">
+<td width="20%" style="border: 1px solid black;" valign="top">
 <center><b>[ STATUS ]</b></center><br />
 <div id="div_status_manual" style="border-radius: 5px; border: 1px solid black; display: inline;background-color: red;" width="25px">&nbsp; &nbsp; &nbsp; &nbsp;</div> Manual<br /><br />
 <div id="div_status_auto" style="border-radius: 5px; border: 1px solid black; display: inline; background-color: red;" width="25px">&nbsp; &nbsp; &nbsp; &nbsp;</div> Automatic<br /> <br />
@@ -229,25 +229,17 @@ else
 ?>
 </center>
 </td>
-<td width="5%" style="text-align: center; border: 1px solid black; font-size: 1.5em" valign="top">
-Vitesse du vent <input style="text-align: center; height: 50px; font-size: 2em" id="input_wind_speed" value="0 m/s" readonly>
+<td width="2%" style="text-align: center; border: 1px solid black;" valign="top">
+<br /><br /><br /><br /><br /><br />
+Vitesse du vent <input style="text-align: center; font-size: 2em" id="input_wind_speed" value="0 m/s" readonly>
+<br /><br /><br /><br /><br /><br />
+Production d'électricité (instantanée) <input style="text-align: center; font-size: 2em" id="input_power_production" value="0 kW" readonly>
 </td>
-<td width="80%" style="border: 1px solid black;">
+<td width="75%" style="border: 1px solid black;">
 <center><img id="img_eolienne" src="eolienne.gif"></center>
-</td>
-<td width="5%" style="border: 1px solid black; text-align: center; font-size: 1.5em " valign="bottom">
-Production d'électricité (instantanée) <input style="text-align: center; height: 50px; font-size: 2em" id="input_power_production" value="0 kW" readonly>
 </td>
 </tr>
 </table>
 </center>
-<div class="alert alert-success m-5" role="alert">
-	<h4 class="alert-heading">Bienvenue au COGEDCT !</h4>
-	<p>Mais qu'est-ce que le COGEDCT ? Il s'agit du centre opérationnel de gestion éléctrique de Devoteam Cyber Trust ! C'est ici que nous gerons l'alimentation éléctrique de nos datacenters.
-	<p>Nous avons reçu un courrier anonyme expliquant que notre système était corronpu et que nous devions nous méfier de notre protocole MODBUS, il se pourrait qu'une personne malveillante pourrait détruire notre éolienne de production.</p>
-	<p>Nous avons besoin de votre aide !!!</p>
-	<hr>
-	<p class="mb-0">Pour nous aider, il suffit de te connecter sur le réseau Wi-Fi suivant "nomWifiàDéfinir" et de te rendre sur ton navigateur préféré pour te rendre sur l'URL suivante : https://console.cogedct.local</p>
-</div>
 </body>
 </html>
