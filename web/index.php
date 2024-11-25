@@ -198,7 +198,7 @@
 	</script>
 </head>
 <body>
-<center><h1 class="m-3">Centrale eolienne - Devoteam Cyber Trust</h1></center>
+<center><h1 class="m-3">Centrale eolienne - Cyber Indus</h1></center>
 <center><img id="img_devoteam" src="devoteam_rgb_cybertrust.png" class="rounded m-3 d-block" style="padding: 1em"></center>
 <center>
 <table style="border-collapse: collapse;" width="80%">
