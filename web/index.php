@@ -230,13 +230,13 @@ else
 </center>
 </td>
 <td width="5%" style="text-align: center; border: 1px solid black" valign="top">
-Vitesse du vent <input style="text-align: center;" id="input_wind_speed" value="0 m/s" readonly>
+Vitesse du vent <input style="text-align: center; height: 50px; font-size: 2em" id="input_wind_speed" value="0 m/s" readonly>
 </td>
 <td width="80%" style="border: 1px solid black;">
 <center><img id="img_eolienne" src="eolienne.gif"></center>
 </td>
 <td width="5%" style="border: 1px solid black; text-align: center" valign="bottom">
-Production d'électricité (instantanée) <input style="text-align: center;" id="input_power_production" value="0 kW" readonly>
+Production d'électricité (instantanée) <input style="text-align: center; height: 50px; font-size: 2em" id="input_power_production" value="0 kW" readonly>
 </td>
 </tr>
 </table>
