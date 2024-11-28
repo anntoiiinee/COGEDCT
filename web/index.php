@@ -207,7 +207,7 @@
       <div class="col-1 pt-1">
       </div>
       <div class="col-9 text-center">
-        <h1 class="blog-header-logo" href="#">Mettez vos systèmes Indus à l’abris des menaces !</h1>
+        <h1 class="" style="font-size: 80px">Mettez vos systèmes Indus à l’abris des menaces !</h1>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
 		<img id="img_devoteam" src="devoteam_rgb_cybertrust.png" class="rounded m-3" style="padding: 1em; max-width:55%;max-height:65%;">
@@ -215,6 +215,8 @@
     </div>
   </header>
 	</div>
+	<br /><br />
+	<br /><br />
 <center>
 <table style="border-collapse: collapse;" width="80%">
 <tr>
